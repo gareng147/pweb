@@ -16,12 +16,8 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         User::factory()->create([
-            'name' => 'Sayuran Organik',
-            'category' => 'Sayuran',
-            'price' => 10000,
-            'description' => 'Sayuran segar dari kebun kami.',
-            'stock' => 50,
-            'image' => 'sayuran.jpg',
+            'name' => 'Test User',
+            'email' => 'test@example.com',
         ]);
     }
 }
